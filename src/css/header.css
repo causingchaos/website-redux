@@ -1,0 +1,62 @@
+/**  Header Navigation **/
+body .navbar {
+    margin-bottom: 0;
+}
+
+body .navbar-default {
+    background-color: #196ea4;
+    border: none;
+    border-radius: 0;
+    padding: 10px 0;
+}
+body .navbar-default .navbar-brand {
+    font-weight: 400;
+    color: white;
+    font-size: 2em;
+}
+body .navbar-default .navbar-brand:hover,
+body .navbar-default .navbar-brand:focus {
+    color: black;
+}
+
+body .navbar-default .navbar-nav > li > a,
+body .navbar-default .navbar-nav > li > a:focus {
+    color: white;
+}
+header .navbar-default .navbar-nav > li > a:hover{
+    color: black;
+}
+
+body .navbar-default .navbar-nav > .active >a,
+body .navbar-default .navbar-nav > .active >a:hover,
+body .navbar-default .navbar-nav > .active >a:focus {
+    color: black;
+    font-weight: 800;
+    background-color: #599cd6;
+    display:block;
+}
+
+/* dropdown box styles */
+body .navbar-default .navbar-collapse .navbar-right .dropdown-menu{
+    background-color: #196ea4;
+    color: white;
+}
+body .navbar-default .navbar-collapse .navbar-right .dropdown-menu > li > a{
+    color: white;
+}
+
+body .navbar-default .navbar-collapse .navbar-right .dropdown-menu > li > a:hover{
+    background-color: #196ea4;
+    color: black;
+}
+body .navbar-default .navbar-nav > .open > a,
+body .navbar-default .navbar-nav > .open > a:focus,
+body .navbar-default .navbar-nav > .open > a:hover {
+    background-color: transparent;
+    color: black;
+}
+
+/* dropdown box styles */
+body .navbar-default .navbar-header .icon-bar {
+    background-color: white;
+}

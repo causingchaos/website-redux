@@ -1,0 +1,231 @@
+/*
+primary blue (resume color) #599cd6
+light #8ecdff
+dark #196ea4
+light grey: #ededed
+even darker blue shade: #114d72
+ */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,100,300,700);
+
+/**  Basic Page CSS **/
+body{
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  position: relative;
+  background-color: #599cd6;
+  font-size: 16px;
+  padding-top: 70px;
+  padding-bottom: -20px;
+  margin-bottom: -50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  margin: 0;
+}
+#main {
+  background: #ededed;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#resume {
+  background: white;
+  padding-top: 20px;
+}
+
+
+/* About container */
+#about-introduction-row-column1 {
+  background: #8ecdff;
+}
+#about-introduction-row-column2 {
+  background: #ededed;
+  margin-left: 0;
+  padding-left: 5px;
+}
+#website-body{
+  padding-left: 0px;
+  background: #ededed;
+}
+/** Main Resume Container **/
+#main-resume-container {
+  padding-top: 10px;
+  background: white;
+  padding-bottom: 20px;
+}
+#main-resume-left-sub-container{
+  background: white;
+}
+
+.resume-h2{
+  color: #196ea4;
+  font-weight: 500;
+}
+#about-container {
+  background: #ededed;
+}
+#profile-img{
+  border-radius: 10px;
+  max-width: 100%;
+}
+/** Left resume container**/
+#main-resume-left-sub-container {
+   background: white;
+ }
+#work-container-1 {
+  background: white;
+}
+#work-container-2{
+  background: white;;
+}
+#work-container-3{
+  background: white;
+}
+#education-container{
+  background: white;;
+}
+#certifications-container{
+  background: white;
+}
+
+/** Right resume container **/
+#main-resume-right-sub-container {
+  background: white;
+}
+#left-inner-column {
+  background: white;
+}
+#skills-container {
+  background: white;
+}
+#coursework-container {
+  background: white;
+}
+#skills-1{
+  background: white;
+}
+#skills-2{
+  background: white;
+}
+#skills-3{
+  background: white;
+}
+#languages{
+  background: white;;
+}
+
+/** resume download button **/
+#resume-download-button{
+  background: #8ecdff;
+  color: black;
+  align-items: center;
+  border: #ededed;
+}
+
+#nav-toggle-button{
+  background: #196ea4;
+}
+body .icon-bar{
+  background: white;
+}
+
+/*Contact containers */
+
+
+body .form-control:focus{border-color: black; background-color: #114d72; border-width: 2px;}
+
+body textarea.form-control{
+  background-color: #114d72;
+}
+
+body .form-control{
+  background-color: #114d72;
+  border-color: transparent;
+  border-radius: 0;
+
+}
+body .form-control::placeholder {color: lightgrey;}
+
+#contact-container{
+  background: #196ea4;
+  color: white;
+  padding-bottom: 20px;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+  background-color: darkgrey;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: teal;
+  outline: 1px solid slategrey;
+}
+
+#main-contact-container{
+  padding-right: 0;
+  padding-left: 0;
+}
+
+body .contact-section-heading{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: white;
+  color: #196ea4;
+  align-content: center;
+}
+
+/* fix the offset for anchor tags */
+#courses-display{
+  padding-top: 40px;
+  margin-top: -40px;
+}
+
+/*   CourseBoard container */
+#course-board{
+  background: #ededed;
+  color: #196ea4;
+  padding-left: 0;
+  margin-left: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+#course-board-card-container{
+  padding: 10px;
+}
+
+/*footer-container */
+#footer-container{
+  background-color: #114d72;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: white;
+
+}
+#test9{
+  padding-top: 15px;
+}
+footer{
+  padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
